@@ -2,7 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+
+--russian-violet: #10002bff;
+--russian-violet-2: #240046ff;
+--persian-indigo: #3c096cff;
+--tekhelet: #5a189aff;
+--french-violet: #7b2cbfff;
+--amethyst: #9d4eddff;
+--heliotrope: #c77dffff;
+--mauve: #e0aaffff;
+--laranja-claro:var(--french-violet)
 }
 
 body {
@@ -11,7 +20,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: var(--russian-violet);
 }
 
 
@@ -25,13 +34,13 @@ border-radius: 50%;
 }
 
 .nav-link {
-    color: #CB6D43;
+    color: var(--mauve);
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo-logo.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -82,8 +91,8 @@ border-radius: 50%;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/warlock.png') top right no-repeat,
+        url('img/caveira.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -106,7 +115,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: var(--french-violet)
 
 }
 
@@ -124,23 +133,23 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px var(--french-violet);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: var(--persian-indigo);
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: var(--tekhelet);
 }
