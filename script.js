@@ -1,9 +1,16 @@
-const aumentaFonteBotao = document.getElementById('aumentar-fonte')
+const aumentarFonteBotao = document.getElementById('aumentar-fonte')
+const diminuirFonteBotao = document.getElementById(`diminuir-fonte`)
 
 let tamanhoFonteAtual = 1; 
 
-aumentaFonteBotao.addEventListener ('click',function() {
+aumentarFonteBotao.addEventListener ('click',function() {
     tamanhoFonteAtual +=0.1;
-    document.body.style.fontize= `${tamanhoFonteAtual}rem`
+    document.body.style.fontSize= `${tamanhoFonteAtual}rem`
+
+})
+
+diminuirFonteBotao.addEventListener ('click',function() {
+tamanhoFonteAtual -= 0.1;
+document.body.style.fontSize= `${tamanhoFonteAtual}rem`
 
 })

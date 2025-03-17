@@ -115,7 +115,7 @@ h2 {
 }
 
 #galeria {
-    background-color: var(--french-violet)
+    background-color: var(french-violet-)
 
 }
 
@@ -152,4 +152,9 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: var(--tekhelet);
+}
+
+.menu-acessibilidade{
+pos
+
 }
