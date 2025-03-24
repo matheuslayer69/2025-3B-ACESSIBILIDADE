@@ -91,7 +91,7 @@ border-radius: 50%;
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/warlock.png') top right no-repeat,
+    background: url() top right no-repeat,
         url('img/caveira.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
@@ -120,12 +120,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url() bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url;
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -155,6 +155,25 @@ h2 {
 }
 
 .menu-acessibilidade{
-pos
+position: fixed;
+top: 2rem;
+right: 20px;
+z-index: 1000;
 
+}
+
+.rotacao-menu{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+.opcoes-acessibilidade{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
 }
